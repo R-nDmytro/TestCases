@@ -1,0 +1,45 @@
+ID,Summary,Priority
+"As a user of the website, I want to be able to filter the news by topic so that I don't read news that doesn't interest me.
+",,
+US-001,The user has not selected anything.,Medium
+US-002,The user is able to select multiple topics.,Medium
+US-003,The user is able to select a theme in the checkboxes.,Medium
+"As a user of a website, I want to select news by date to check what news was on that day.",,
+US-004,The user has the option to enter the correct date.,Medium
+US-005,The user entered incorrect data.,Medium
+US-006,The user can only enter numbers.,Medium
+US-007,User is not able to enter letters in the date field,Medium
+"As a user of the website, I want to be able to add news to my favorites list so that I can quickly find them later and share them with my friends.",,
+US-008,The user is able to add any news to the favorites list.,Low
+US-009,The user is able to remove any news from the favorites list.,Low
+US-010,The user is not able to add the news to the favorites list by double clicking.,Low
+"As a user of the website, I want to be able to subscribe to the most viewed news in order to read the most popular news.",,
+US-011,The user is able to subscribe to the most popular news with the checkboxes.,Medium
+US-012,The user user is able to leave the subscription field blank.,Medium
+"As a user of the website, I want to be able to hide all the news so it doesn't distract me from other content.",,
+US-013,The user has the option to hide all news.,Medium
+US-014,The user has the option to show all the news.,Medium
+,,
+"As a user of the website, I want to be able to upload my work to the repository for free so that I can access it at any time.
+",,
+US-015,"The user is able to upload only files with the JPEG, PNG  extension.",Medium
+US-016,The user is able to upload a file of any extension.,Medium
+US-017,The user is able to upload a file up to 50 mb in size.,Medium
+US-018,The user is able to upload a file larger than 50 mb.,Medium
+US-019,The user is able to upload a file with a name from Latin letters.,Medium
+"As a user of the website, I want to be able to create separate directories within the vault to organize and sort my works.",,
+US-020,The user is able to create a new directory with the same name as an existing directory.,Medium
+US-021,The user is able to create a new directory with a name from Latin letters.,Medium
+US-022,The user is able to create a new directory in the name of which there is a special character.,Medium
+"As a user of the website, I want to be able to change the accessibility of viewing my storage in order to restrict access to it.",,
+US-023,The user is able to close access to their directories.,High
+US-024,The user is able to grant access to certain users.,High
+US-025,The user is able to open access to anyone who has a link.,High
+"As a user of the website, I want to be able to delete my work so as not to store unnecessary files.",,
+US-026,The user is able to delete the file to the trash.,Medium
+US-027,The user is able to delete the file completely.,Medium
+US-028,The user is able to completely clear the account.,Medium
+"As a website user, I want to be able to change the way files are displayed to make browsing easier.",,
+US-029,The user is able to change the display mode of images to a list.,Medium
+US-030,The user is able to change the image display mode to medium size.,Medium
+US-031,The user is able to change the size of the window while the size of the images remains the same.,Medium
