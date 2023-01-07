@@ -8,82 +8,82 @@ Main page (logged out)
       List of popular tags
     
   Sign in  
-    C1	Login with the correct email and password.			
-    C2	Users should be able to open the Sign In page after clicking on the “Sign in” link in the Conduit navigation bar.			
-    C3	The page should contain an email and password form, and the [Sign in] button.			
-    C4	The Sign In page should have the “Need an account” link			
-    C5	The Sign In page should have the “Forgot the password?” link.			
-    C6	If logged-in users trying to reach this page by direct link, they should be redirected to the personal account page			
+    C1  Login with the correct email and password.			
+    C2  Users should be able to open the Sign In page after clicking on the “Sign in” link in the Conduit navigation bar.			
+    C3  The page should contain an email and password form, and the [Sign in] button.			
+    C4  The Sign In page should have the “Need an account” link			
+    C5  The Sign In page should have the “Forgot the password?” link.			
+    C6  If logged-in users trying to reach this page by direct link, they should be redirected to the personal account page			
   
     Sign up Link  
-      C7	The sign up link should redirect to Sign up page.	
+      C7  The sign up link should redirect to Sign up page.	
         
     Form of Sign in
       E-mail field  
-        C8	Email field is required			
-        C9	The Email field should accept email and username as valid credentials to log in			
-        C10	The Email field should contain a placeholder: Enter your username or email			
-        C11	The Email field should be not case sensitive field			
-        C12	In the 'Email' field, the user cannot use Cyrillic.			
-        C13	The special symbol '@' is required			
+        C8  Email field is required			
+        C9  The Email field should accept email and username as valid credentials to log in			
+        C10 The Email field should contain a placeholder: Enter your username or email			
+        C11 The Email field should be not case sensitive field			
+        C12 In the 'Email' field, the user cannot use Cyrillic.			
+        C13 The special symbol '@' is required			
     
       Pasword field  
-        C14	The 'password' field is required			
-        C15	The password should contain at least one capital letter, one number, and one special character			
-        C16	The 'password' field cannot contain multiple words with a space.			
-        C17	Input should be covered by asterisks			
-        C18	Users shouldn’t be able to copy or cut values from the field			
-        C19	Users should be able to paste data into the field
+        C14 The 'password' field is required			
+        C15 The password should contain at least one capital letter, one number, and one special character			
+        C16 The 'password' field cannot contain multiple words with a space.			
+        C17 Input should be covered by asterisks			
+        C18 Users shouldn’t be able to copy or cut values from the field			
+        C19 Users should be able to paste data into the field
         
       Button [Sign in]  
-        C20	Users should be able to log in by clicking on the [Sign In] button or pressing an Enter button.			
-        C21	After clicking on the [Sign in] button, the user should be redirected to the home page of the logged-in user.			
+        C20 Users should be able to log in by clicking on the [Sign In] button or pressing an Enter button.			
+        C21 After clicking on the [Sign in] button, the user should be redirected to the home page of the logged-in user.			
    
   Sign up
     Sign in Link  
-      C22	The sign in link should redirect to Sign in page.			
+      C22 The sign in link should redirect to Sign in page.			
       
     Registration form  
-      C23	Open the “Sign Up” page from the navigation bar			
-      C24	Users should be able to create an account by clicking on the [Sign Up] button or pressing an Enter button.			
+      C23 Open the “Sign Up” page from the navigation bar			
+      C24 Users should be able to create an account by clicking on the [Sign Up] button or pressing an Enter button.			
       
       Username field  
-        C25	The Username field is required			
-        C26	The username must be unique.			
-        C27	The username can consist of a few words.			
-        C28	The username must be 3-40 characters long.			
-        C29	The "Username" field must accept latin letters and digits.			
-        C30	The "Username" field does not allow special characters or non-printable characters.			
-        C31	The username field is not case sensitive.			
-        C32	The username shorter than 3 characters should not be accepted			
+        C25 The Username field is required			
+        C26 The username must be unique.			
+        C27 The username can consist of a few words.			
+        C28 The username must be 3-40 characters long.			
+        C29 The "Username" field must accept latin letters and digits.			
+        C30 The "Username" field does not allow special characters or non-printable characters.			
+        C31 The username field is not case sensitive.			
+        C32 The username shorter than 3 characters should not be accepted			
       
       E-mail field  
-        C33	The Email must be unique.			
-        C34	The E-mail field is required			
-        C35	The '@' symbol must be present in the Email field.			
-        C36	The Email field accepts Latin letters, digits, and some special characters: plus (+), hyphen (-), underline (_), dot (.)			
-        C37	The format of the email is [name]@[domain].[top-domain]			
-      
+        C33 The Email must be unique.			
+        C34 The E-mail field is required			
+        C35 The '@' symbol must be present in the Email field.			
+        C36 The Email field accepts Latin letters, digits, and some special characters: plus (+), hyphen (-), underline (_), dot (.)			
+        C37 The format of the email is [name]@[domain].[top-domain]			
+     
       Pasword field  
-        C38	The password field is required			
-        C39	The password must be unique.			
-        C40	The password must be 8-40 characters long.			
-        C41	The password should contain at least one capital letter, one number, and one special character.			
-        C42	Password shorter than 8 characters should not be accepted.			
-        C43	Password longer than 30 characters should not be accepted			
+        C38 The password field is required			
+        C39 The password must be unique.			
+        C40 The password must be 8-40 characters long.			
+        C41 The password should contain at least one capital letter, one number, and one special character.			
+        C42 Password shorter than 8 characters should not be accepted.			
+        C43 Password longer than 30 characters should not be accepted			
       
       Confirm password  
-        C44	The confirm password field is required			
-        C45	The password must match			
+        C44 The confirm password field is required			
+        C45 The password must match			
     
       Button [Sign up] 
-        C46	After clicking the button [Sign up] , a confirmation code was sent to the user by email.			
-        C47	After clicking the button [Sign up] user should be redirected to the “Finish Registration” page to enter the code sent by email			
+        C46 After clicking the button [Sign up] , a confirmation code was sent to the user by email.			
+        C47 After clicking the button [Sign up] user should be redirected to the “Finish Registration” page to enter the code sent by email			
     
 Main page (logged in)  
   Home page  
-    C48	Users can get on the Home page by clicking the "Conduit" logo in the upper left corner of the page			
-    C49	Users can get on the Home page by clicking the "Home" header on the top of the page			
+    C48 Users can get on the Home page by clicking the "Conduit" logo in the upper left corner of the page			
+    C49 Users can get on the Home page by clicking the "Home" header on the top of the page			
     
     Your feed  
       List of Your feed  
@@ -154,10 +154,10 @@ Main page (logged in)
         C97	The "Tags" field is optional			
         C98	"Tags" field from 2-30 symbols			
         C99	"Tags" field can contains only letters and numbers			
-        C100	"Tags" field can't be more than 30 symbols			
+        C100  "Tags" field can't be more than 30 symbols			
         C101	Article can contain 1-10 tags			
-        C102	Each tag should start from "#" symbol			
-        C103	Tags are not case sensitive			
+        C102  Each tag should start from "#" symbol			
+        C103  Tags are not case sensitive			
       
       Article page  
         C104	Opening Article page after creating the article			
