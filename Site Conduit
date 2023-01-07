@@ -1,0 +1,256 @@
+Main page (logged out)
+
+  Home page  
+    Header
+    Global feed
+      List of global feeds
+    Popular Tags
+      List of popular tags
+    
+  Sign in  
+    C1	Login with the correct email and password.			
+    C2	Users should be able to open the Sign In page after clicking on the “Sign in” link in the Conduit navigation bar.			
+    C3	The page should contain an email and password form, and the [Sign in] button.			
+    C4	The Sign In page should have the “Need an account” link			
+    C5	The Sign In page should have the “Forgot the password?” link.			
+    C6	If logged-in users trying to reach this page by direct link, they should be redirected to the personal account page			
+  
+    Sign up Link  
+      C7	The sign up link should redirect to Sign up page.	
+        
+    Form of Sign in
+      E-mail field  
+        C8	Email field is required			
+        C9	The Email field should accept email and username as valid credentials to log in			
+        C10	The Email field should contain a placeholder: Enter your username or email			
+        C11	The Email field should be not case sensitive field			
+        C12	In the 'Email' field, the user cannot use Cyrillic.			
+        C13	The special symbol '@' is required			
+    
+      Pasword field  
+        C14	The 'password' field is required			
+        C15	The password should contain at least one capital letter, one number, and one special character			
+        C16	The 'password' field cannot contain multiple words with a space.			
+        C17	Input should be covered by asterisks			
+        C18	Users shouldn’t be able to copy or cut values from the field			
+        C19	Users should be able to paste data into the field
+        
+      Button [Sign in]  
+        C20	Users should be able to log in by clicking on the [Sign In] button or pressing an Enter button.			
+        C21	After clicking on the [Sign in] button, the user should be redirected to the home page of the logged-in user.			
+   
+  Sign up
+    Sign in Link  
+      C22	The sign in link should redirect to Sign in page.			
+      
+    Registration form  
+      C23	Open the “Sign Up” page from the navigation bar			
+      C24	Users should be able to create an account by clicking on the [Sign Up] button or pressing an Enter button.			
+      
+      Username field  
+        C25	The Username field is required			
+        C26	The username must be unique.			
+        C27	The username can consist of a few words.			
+        C28	The username must be 3-40 characters long.			
+        C29	The "Username" field must accept latin letters and digits.			
+        C30	The "Username" field does not allow special characters or non-printable characters.			
+        C31	The username field is not case sensitive.			
+        C32	The username shorter than 3 characters should not be accepted			
+      
+      E-mail field  
+        C33	The Email must be unique.			
+        C34	The E-mail field is required			
+        C35	The '@' symbol must be present in the Email field.			
+        C36	The Email field accepts Latin letters, digits, and some special characters: plus (+), hyphen (-), underline (_), dot (.)			
+        C37	The format of the email is [name]@[domain].[top-domain]			
+      
+      Pasword field  
+        C38	The password field is required			
+        C39	The password must be unique.			
+        C40	The password must be 8-40 characters long.			
+        C41	The password should contain at least one capital letter, one number, and one special character.			
+        C42	Password shorter than 8 characters should not be accepted.			
+        C43	Password longer than 30 characters should not be accepted			
+      
+      Confirm password  
+        C44	The confirm password field is required			
+        C45	The password must match			
+    
+      Button [Sign up] 
+        C46	After clicking the button [Sign up] , a confirmation code was sent to the user by email.			
+        C47	After clicking the button [Sign up] user should be redirected to the “Finish Registration” page to enter the code sent by email			
+    
+Main page (logged in)  
+  Home page  
+    C48	Users can get on the Home page by clicking the "Conduit" logo in the upper left corner of the page			
+    C49	Users can get on the Home page by clicking the "Home" header on the top of the page			
+    
+    Your feed  
+      List of Your feed  
+        C50	The "Your feed" contains only the articles of the users the user is following			
+        C51	The "Your feed" empty by default			
+        C52	There are 10 articles on one page			
+        C53	A user is redirected to the User page after clicking the username of the author of the article			
+    
+    Global feed  
+      List of global feed  
+        C54	The "Global feed" contains the articles of all users			
+        C55	In Global feed the articles are sorted from the newest to the oldest			
+        C56	The pagination contains pages from 1 to 50			
+        C57	There are 10 articles on one page			
+        C58	A user is redirected to the User page after clicking the username of the author of the article			
+        C59	A user is redirected to the Article page after clicking the title			
+        C60	A user is redirected to the Article page after clicking the description			
+        C61	A user is redirected to the Article page after clicking the "Read more..." link.			
+        C62	Only logged-in users can see a number of likes and like an article			
+        C63	A user can like the article by clicking the "Like" button on the right of the article section			
+        C64	A user can unlike the article liked by him before by clicking the "Like" button on the right of the article section.			
+        C65	A user gets articles that contain a certain tag from the "Popular tags" section after clicking a tag from it			
+    
+    Popular Tags 
+      List of popular tags  
+    
+  New Article  
+    New Article form  
+      C66	A registered user can create a "new article"			
+      C67	An unregistered user opening a "new article" link should be redirected to the "Sign In" form			
+      C68	User should be able to create an article by clicking on the [Publish Article] button or pressing an Enter button			
+      C69	Validation messages for the empty fields should be shown immediately under the field			
+      C70	If a user leaves the "New Article" screen without publication, all entered info vanishes			
+      C71	After the successful publication of an article, the user gets redirected to the Article page			
+    
+      Article Title  
+        C72	The "Article title" field is required			
+        C73	Title of the article from 5 to 240 symbols			
+        C74	Article title should be unique			
+        C75	Article title accepts letters, numbers, special characters, spaces			
+        C76	Article title can't start from numbers, special characters, spaces			
+        C77	Article title can't end with numbers, special characters, spaces			
+        C78	Article title can't have few in a row numbers, special characters, spaces			
+        C79	"Article title" field is empty show the error message: "Title of the article can't be empty (minimum 5 symbols)"			
+        C80	The warning message should appears: “Article with the similar Title already exists. Do you want to continue?” if a user tries to create an article witht a non-unique title			
+      
+      What's this article about?  
+        C81	The "What's this article about?" field is required			
+        C82	Description of the article is empty show error message: "Description of the article can't be empty (minimum 5 symbols)"			
+        C83	Description of the article from 5 to 240 symbols			
+        C84	Description of the article accepts letters, numbers, special characters, spaces			
+        C85	The description of the article can't start from numbers, special characters, spaces			
+        C86	The description of the article can't end with numbers, special characters, spaces			
+        C87	The description of the article can't have few in a row numbers, special characters, spaces			
+      
+      Body of article  
+        C88	The "Write your article" field is required			
+        C89	"Body of the article" field is empty show an error message: "Body of article can't be blank."			
+        C90	Body of article from 20 to 9000 symbols			
+        C91	Description of the article accepts letters, numbers, special characters, spaces			
+        C92	The description of the article can't start from numbers, special characters, spaces			
+        C93	The description of the article can't end with numbers, special characters, spaces			
+        C94	The description of the article can't have few in a row numbers, special characters, spaces			
+        C95	"Body of article" field doesn’t accept any attachments			
+        C96	The size of the input field can be changed in the right corner of this field.			
+      
+      Tags form  
+        C97	The "Tags" field is optional			
+        C98	"Tags" field from 2-30 symbols			
+        C99	"Tags" field can contains only letters and numbers			
+        C100	"Tags" field can't be more than 30 symbols			
+        C101	Article can contain 1-10 tags			
+        C102	Each tag should start from "#" symbol			
+        C103	Tags are not case sensitive			
+      
+      Article page  
+        C104	Opening Article page after creating the article			
+        C105	Open article page from the "Global feed" tab			
+        C106	Authors can open their articles in the "My Articles" tab on the “User page”			
+        C107	Open the user's page by clicking on the username next to the user's avatar.			
+        C108	Edit a published article			
+        C109	Only the author can edit a published article			
+        C110	Delete a published article			
+        C111	Only the author can delete a published article			
+    
+        Comments Section  
+          C112	The text field accepts from 1 to 240 characters			
+          C113	The text box accepts letters, numbers, special characters			
+          C114	The User can slide down the right corner of the text box to change its size			
+          C115	The text field accept 241 characters			
+          C116	The text field accept 0 characters			
+          C117	[Post Comment] button post a comment if comment field isn't empty			
+          C118	The user can go to the page of the user who left the comment by clicking on his avatar in the lower left corner			
+          C119	In the lower right corner author can delete a comment by clicking on the [delete] button.			
+          C120	Only the author can delete a comment			
+        
+        Edit Article page  
+          C121	The [Edit Article] button should redirect the user to the page for editing previously created articles			
+          C122	Only logged-in authors with created articles can get on the page "Edit article"			
+          C123	If not logged in users or not the author tries to get on the page by link - the Article page opens			
+          C124	The [Edit article] button validates the form and saves changes added			
+          C125	Users can click on the [Edit article] button without any changes added			
+          C126	If any of the mandatory fields weren't filled, error messages appear above each not filled field			
+          C127	The [Cancel] button returns the user to the Article page without saving the changes			
+        
+  Settings  
+      C128	Logged-in users can reach this page from the header between "New Post" and the User's profile tabs			
+      C129	If not logged-in users try reaching this form by link, the system should automatically redirect them to the Sign In form			
+    
+    Data filling form  
+      Form for posting profile picture URL  
+        C130	URL of profile picture is optional			
+        C131	User can enter only one link into this field			
+        C132	If the input is not a link, "URL of profile picture is invalid" error message appears			
+        C133	Picture URL field can accept an image in "png" format			
+        C134	Picture URL field can accept an image in "jpeg" format			
+        C135	Picture URL field can accept an image in "jpg" format			
+        C136	Picture URL field can accept an image in "svg" format			
+    
+      Username form  
+        C137	Username field is required			
+        C138	Should show an error message "Username can't be blank" , if the "username" field is empty			
+        C139	Username must be unique			
+        C140	The username must be 4-36 characters long			
+        C141	Username consist of 3 characters long			
+        C142	Username consist of 37 characters long			
+        C143	The usermane field accepts only Latin characters and special symbols " - " " _ "			
+        C144	Username is not case sensitive			
+    
+      User Description form  
+        C145	Descriptional field is optional			
+        C146	The description field can contain up to 9000 characters			
+        C147	Descriptional field accepts letters, numbers, special characters, spaces (can't be first, last, and few in a row)			
+      
+      Email form  
+        C148	Email field is required			
+        C149	Should show an error message "Email can't be blank", if the "Email" field is empty			
+        C150	Email Must be unique			
+        C151	Email must have the format [name]@[domain].[top-domain]			
+        C152	The [name] section accepts only Latin characters and special symbols ( . _ +)			
+      
+      New password field  
+        C153	New password field is optional			
+        C154	New passeord can't be the same as the previous password			
+        C155	New password field should be from 8-30 symbols			
+        C156	New password field accept letters			
+        C157	New password field accept numbers			
+        C158	New password field accept special characters			
+        C159	New password should contain at least one symbol, one integer, one capital letter			
+        C160	The input in new password field is covered by the password mask (****)			
+    
+    [Update Setting] button  
+        C161	The [Update Settings] button validates all mandatory fields and (if they are filled with valid values) updates the information about the user			
+        C162	If the "Username" field was updated, the new username appears in the upper right corner of the page			
+        C163	If the "Short bio about you" field was updated, the new bio appears under the username on the user page			
+        C164	If the "Email" field was updated, a user can log in with the new email			
+        C165	If the "Email" field was updated, a user cannot log in with the old email			
+        C166	If the "Password" field was updated, a user can log in with the new password			
+        C167	If the "Password" field was updated, a user cannot log in with the old password			
+      
+    [Or click here to log out] button  
+        C168	A user is redirected to the Home page and is logged out after clicking the [Or click here to logout] button			
+      
+  User page
+    Header  
+      My posts  
+        List of my posts
+      Favorited posts  
+        List of favorited posts
+  Footer
